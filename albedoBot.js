@@ -4,8 +4,6 @@ var client = new discord.Client();
 var fs = require("fs");
 var commandsList = fs.readFileSync ("./COMMANDS.txt", {"encoding": "utf-8"});
 
-const token = "NTEzMDYyNTYwNDA5NDUyNTc5.DtCipQ.ZputuI8BN3MftZJhSaaEQCQ4L_0";
-
 // Albedo = require ("./aetherbot");
 
 client.on ("ready", () => {
@@ -56,4 +54,4 @@ client.on ("message", (message) => {
 
 });
 
-client.login (process.env.BOT_TOKEN);
+client.login (process.env.token);
