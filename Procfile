@@ -1,1 +1,1 @@
-worker: node albedoBot
+worker: node albedoBot.js
