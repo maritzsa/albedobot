@@ -45,11 +45,16 @@ client.on ("message", (message) => {
     }
 
     if (message.content.startsWith (prefix + "albedo")) {
-        number = 85;
+        number = 97;
         imageNumber = Math.floor (Math.random() * (number - 1 + 1)) + 1;
         message.channel.send ( {files: ["./albedopics/" + imageNumber + ".jpg"]} )  
     }
-
+    
+    if (message.content.startsWith (prefix + "lewd")) {
+        number = 31;
+        imageNumber = Math.floor (Math.random() * (number - 1 + 1)) + 1;      
+        message.channel.send ( {files: ["./albedolewd/" + imageNumber + ".jpg"]} );
+    }
 
 
 });
