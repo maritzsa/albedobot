@@ -38,8 +38,6 @@ var alblewd = ["https://imgur.com/tK33HpW", "https://imgur.com/LBMwjPp", "https:
 "https://imgur.com/bQktB6C", "https://imgur.com/jttflCB", "https://imgur.com/IlR67C7", "https://imgur.com/38wRYl1", "https://imgur.com/zdUk90Z", "https://imgur.com/adqFQ18",
 "https://imgur.com/bmOIWIz", "https://imgur.com/FVYbytF", "https://imgur.com/VQtChSr", "https://imgur.com/M5H7CjY" ];
 
-Albedo = require ("./aetherbot");
-
 client.on ("ready", () => {
     console.log ("ready!");
 
