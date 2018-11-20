@@ -19,7 +19,10 @@ var albpics = ["https://imgur.com/n5FCixA", "https://imgur.com/bpscZJ3", "https:
 "https://imgur.com/yeMNakl", "https://imgur.com/gxJgNPB", "https://imgur.com/lsKu6zm", "https://imgur.com/HWqAAg3", "https://imgur.com/hx5cAbf", "https://imgur.com/YsHlFZM",
 "https://imgur.com/FfsDkph", "https://imgur.com/FZehD2t", "https://imgur.com/E1EaWp6", "https://imgur.com/s6yI0uw", "https://imgur.com/rj14oaO", "https://imgur.com/sLfPJP8",
 "https://imgur.com/fFk6dAB", "https://imgur.com/Qdjrxsg", "https://imgur.com/4vdKrXh", "https://imgur.com/jp9rJUl", "https://imgur.com/27omvgP", "https://imgur.com/CbN9pjR",
-"https://imgur.com/h7Kk9kP", "https://imgur.com/PS27PQN", "https://imgur.com/F3DPkO5", "https://imgur.com/IZU4M77", "https://imgur.com/vGZFGca", "https://imgur.com/334odvD", "https://imgur.com/jbrz3Pr" ]; 
+"https://imgur.com/h7Kk9kP", "https://imgur.com/PS27PQN", "https://imgur.com/F3DPkO5", "https://imgur.com/IZU4M77", "https://imgur.com/vGZFGca", "https://imgur.com/334odvD", "https://imgur.com/jbrz3Pr",
+"https://imgur.com/tZeEESw", "https://imgur.com/OZ9RHNO", "https://imgur.com/KjPcRyW", "https://imgur.com/ves3otS", "https://imgur.com/0lnJt4X", "https://imgur.com/Eh7vMPU",
+"https://imgur.com/7ayFmHB", "https://imgur.com/2XzSGKm", "https://imgur.com/S2YGMKN", "https://imgur.com/otyVIUN", "https://imgur.com/tNdwASa", "https://imgur.com/dUnkacx",
+"https://imgur.com/MDF3FCW", "https://imgur.com/R0pO5DB", "https://imgur.com/owjwlyK", "https://imgur.com/cpN82je", "https://imgur.com/wnhs2By" ]; 
 
 var albgifs = ["https://imgur.com/MMZZCtm", "https://imgur.com/eeg3oWk", "https://imgur.com/Pd3C2Nb", "https://imgur.com/2TNZ83I", "https://imgur.com/XfFOYKi", "https://imgur.com/dRMqwyt",
 "https://imgur.com/F7Vi39p", "https://imgur.com/oXMcoTo", "https://imgur.com/bPomYoz", "https://imgur.com/NoxveOG", "https://imgur.com/kVBmgSj", "https://imgur.com/XxWBzcV", "https://imgur.com/Nm3Pd05",
