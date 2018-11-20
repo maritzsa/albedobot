@@ -39,7 +39,7 @@ var alblewd = ["https://imgur.com/tK33HpW", "https://imgur.com/LBMwjPp", "https:
 "https://imgur.com/SFqUN4m", "https://imgur.com/DG6hjBf", "https://imgur.com/ED8L1rP", "https://imgur.com/YzNlEEo", "https://imgur.com/fn0ppcA", "https://imgur.com/ghZ7qmA",
 "https://imgur.com/GcxDwEW", "https://imgur.com/2nFhjCh", "https://imgur.com/4l05ktw", "https://imgur.com/E3cJhNE", "https://imgur.com/VIwj6MO", "https://imgur.com/twZkedD",
 "https://imgur.com/bQktB6C", "https://imgur.com/jttflCB", "https://imgur.com/IlR67C7", "https://imgur.com/38wRYl1", "https://imgur.com/zdUk90Z", "https://imgur.com/adqFQ18",
-"https://imgur.com/bmOIWIz", "https://imgur.com/FVYbytF", "https://imgur.com/VQtChSr", "https://imgur.com/M5H7CjY" ];
+"https://imgur.com/bmOIWIz", "https://imgur.com/FVYbytF", "https://imgur.com/VQtChSr", "https://imgur.com/M5H7CjY", "https://imgur.com/mrdaezi" ];
 
 client.on ("ready", () => {
     console.log ("ready!");
