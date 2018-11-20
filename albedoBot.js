@@ -86,7 +86,7 @@ client.on ("message", (message) => {
     //}
 
     if (message.content.startsWith (prefix + "lewd")) {
-        number = 57;
+        number = 59;
         link = alblewd[Math.floor (Math.random() * (number - 1 + 1)) ];      
         message.channel.send (link);
     }
