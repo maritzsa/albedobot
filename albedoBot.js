@@ -92,7 +92,7 @@ client.on ("message", (message) => {
     }
 
     if (message.content.startsWith (prefix + "albedo")) {
-        number = 97;
+        number = 115;
         link = albpics[Math.floor (Math.random() * (number - 1 + 1)) ];
         message.channel.send (link);
     }
