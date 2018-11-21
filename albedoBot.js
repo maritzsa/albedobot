@@ -44,7 +44,7 @@ var alblewd = ["https://imgur.com/tK33HpW", "https://imgur.com/LBMwjPp", "https:
 client.on ("ready", () => {
     console.log ("ready!");
 
-    client.user.setActivity ("with My Wings");
+    client.user.setActivity ("with My Master");
 });
 
 const prefix = "a!"
