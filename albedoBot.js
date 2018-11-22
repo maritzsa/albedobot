@@ -65,7 +65,7 @@ client.on ("message", (message) => {
             message.reply ('Hello! *bows*') + message.channel.send ("https://imgur.com/6kRYRZu"); 
     }
     if (message.content.startsWith (prefix + "creator")) {
-            message.reply ('My creator is Maritza-sama');
+            message.reply ('My creator is Maritza-sama. You can contact him in this server: https://discord.gg/EghbQF4) ;
     }
 
 
