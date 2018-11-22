@@ -22,7 +22,11 @@ var albpics = ["https://imgur.com/n5FCixA", "https://imgur.com/bpscZJ3", "https:
 "https://imgur.com/h7Kk9kP", "https://imgur.com/PS27PQN", "https://imgur.com/F3DPkO5", "https://imgur.com/IZU4M77", "https://imgur.com/vGZFGca", "https://imgur.com/334odvD", "https://imgur.com/jbrz3Pr",
 "https://imgur.com/tZeEESw", "https://imgur.com/OZ9RHNO", "https://imgur.com/KjPcRyW", "https://imgur.com/ves3otS", "https://imgur.com/0lnJt4X", "https://imgur.com/Eh7vMPU",
 "https://imgur.com/7ayFmHB", "https://imgur.com/2XzSGKm", "https://imgur.com/S2YGMKN", "https://imgur.com/otyVIUN", "https://imgur.com/tNdwASa", "https://imgur.com/dUnkacx",
-"https://imgur.com/MDF3FCW", "https://imgur.com/R0pO5DB", "https://imgur.com/owjwlyK", "https://imgur.com/cpN82je", "https://imgur.com/wnhs2By" ]; 
+"https://imgur.com/MDF3FCW", "https://imgur.com/R0pO5DB", "https://imgur.com/owjwlyK", "https://imgur.com/cpN82je", "https://imgur.com/wnhs2By", "https://imgur.com/7xxCxhL",
+"https://imgur.com/1N9Mwds", "https://imgur.com/exHv3EB", "https://imgur.com/BZuRTj2", "https://imgur.com/7447Xln", "https://imgur.com/taoN6VV", "https://imgur.com/W9Fwl3Z", 
+"https://imgur.com/hGJCHrQ", "https://imgur.com/Bvnbfm1", "https://imgur.com/wNX9zCF", "https://imgur.com/5FudpbM", "https://imgur.com/ZqKIQns", "https://imgur.com/E81oxfl",
+"https://imgur.com/2q2pCat", "https://imgur.com/fssjHek", "https://imgur.com/3UYzqzH", "https://imgur.com/cMRyVxh", "https://imgur.com/Ka7PqcZ",
+"https://imgur.com/KnNEdCB", "https://imgur.com/lhP7sN7", "https://imgur.com/eMtEe80", "https://imgur.com/BiVzDCI", "https://imgur.com/CoJjWQr", ]; 
 
 var albgifs = ["https://imgur.com/MMZZCtm", "https://imgur.com/eeg3oWk", "https://imgur.com/Pd3C2Nb", "https://imgur.com/2TNZ83I", "https://imgur.com/XfFOYKi", "https://imgur.com/dRMqwyt",
 "https://imgur.com/F7Vi39p", "https://imgur.com/oXMcoTo", "https://imgur.com/bPomYoz", "https://imgur.com/NoxveOG", "https://imgur.com/kVBmgSj", "https://imgur.com/XxWBzcV", "https://imgur.com/Nm3Pd05",
@@ -92,7 +96,7 @@ client.on ("message", (message) => {
     }
 
     if (message.content.startsWith (prefix + "albedo")) {
-        number = 115;
+        number = 138;
         link = albpics[Math.floor (Math.random() * (number - 1 + 1)) ];
         message.channel.send (link);
     }
