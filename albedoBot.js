@@ -29,7 +29,7 @@ var albpics = ["https://imgur.com/n5FCixA", "https://imgur.com/bpscZJ3", "https:
 "https://imgur.com/KnNEdCB", "https://imgur.com/lhP7sN7", "https://imgur.com/eMtEe80", "https://imgur.com/BiVzDCI", "https://imgur.com/CoJjWQr" ]; 
 
 var albgifs = ["https://imgur.com/MMZZCtm", "https://imgur.com/eeg3oWk", "https://imgur.com/Pd3C2Nb", "https://imgur.com/2TNZ83I", "https://imgur.com/XfFOYKi", "https://imgur.com/dRMqwyt",
-"https://imgur.com/F7Vi39p", "https://imgur.com/oXMcoTo", "https://imgur.com/bPomYoz", "https://imgur.com/NoxveOG", "https://imgur.com/kVBmgSj", "https://imgur.com/XxWBzcV", "https://imgur.com/Nm3Pd05",
+"https://imgur.com/oXMcoTo", "https://imgur.com/NoxveOG", "https://imgur.com/kVBmgSj", "https://imgur.com/XxWBzcV", "https://imgur.com/Nm3Pd05",
 "https://imgur.com/6yNKqQ0", "https://imgur.com/zpCFNEb", "https://imgur.com/KkkWzVp", "https://imgur.com/J2ro9yo", "https://imgur.com/5vNqg2n", "https://imgur.com/8UTpYXI", "https://imgur.com/0f2V3oF",
 "https://imgur.com/toCgCcr", "https://imgur.com/ebjlKTK", "https://imgur.com/8t6o88i", "https://imgur.com/P5SAAIJ", "https://imgur.com/I0BtUUZ", "https://imgur.com/nqOIrkJ", "https://imgur.com/9sp59Vr",
 "https://imgur.com/ednnay4", "https://imgur.com/IEt0il8", "https://imgur.com/zMrSnYK", "https://imgur.com/J37Rhoe", "https://imgur.com/VsKr91a" ];
@@ -70,7 +70,7 @@ client.on ("message", (message) => {
 
 
     if (message.content.startsWith (prefix + "gif")) {
-        number = 32;
+        number = 30;
         link = albgifs[Math.floor (Math.random() * (number - 1 + 1)) ];
         message.channel.send (link);
     }
@@ -81,7 +81,7 @@ client.on ("message", (message) => {
     }
 
     if (message.content.includes ("Love") || (message.content.includes ("love"))) {
-        message.channel.send ('**Love! Love! LOVE! . . .**');
+        message.channel.send ('**Love! Love! LOVE! . . .**') + message.channel.send ("https://imgur.com/bPomYoz");
     }
 
     //if (message.content.includes ("love")) {
