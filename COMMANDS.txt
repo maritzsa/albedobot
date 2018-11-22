@@ -2,7 +2,7 @@ My commands are :
 
 **a!help** : command list
 **a!hello** : Hello!
-**a!creator** : My creator's name
+**a!creator** : My creator's name and link to support server.
 **a!gif** : cute gifs of me!
 **a!albedo** : more me <3
 **a!lewd** : NSFW!!
