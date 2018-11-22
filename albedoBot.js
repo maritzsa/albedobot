@@ -26,7 +26,7 @@ var albpics = ["https://imgur.com/n5FCixA", "https://imgur.com/bpscZJ3", "https:
 "https://imgur.com/1N9Mwds", "https://imgur.com/exHv3EB", "https://imgur.com/BZuRTj2", "https://imgur.com/7447Xln", "https://imgur.com/taoN6VV", "https://imgur.com/W9Fwl3Z", 
 "https://imgur.com/hGJCHrQ", "https://imgur.com/Bvnbfm1", "https://imgur.com/wNX9zCF", "https://imgur.com/5FudpbM", "https://imgur.com/ZqKIQns", "https://imgur.com/E81oxfl",
 "https://imgur.com/2q2pCat", "https://imgur.com/fssjHek", "https://imgur.com/3UYzqzH", "https://imgur.com/cMRyVxh", "https://imgur.com/Ka7PqcZ",
-"https://imgur.com/KnNEdCB", "https://imgur.com/lhP7sN7", "https://imgur.com/eMtEe80", "https://imgur.com/BiVzDCI", "https://imgur.com/CoJjWQr", ]; 
+"https://imgur.com/KnNEdCB", "https://imgur.com/lhP7sN7", "https://imgur.com/eMtEe80", "https://imgur.com/BiVzDCI", "https://imgur.com/CoJjWQr" ]; 
 
 var albgifs = ["https://imgur.com/MMZZCtm", "https://imgur.com/eeg3oWk", "https://imgur.com/Pd3C2Nb", "https://imgur.com/2TNZ83I", "https://imgur.com/XfFOYKi", "https://imgur.com/dRMqwyt",
 "https://imgur.com/F7Vi39p", "https://imgur.com/oXMcoTo", "https://imgur.com/bPomYoz", "https://imgur.com/NoxveOG", "https://imgur.com/kVBmgSj", "https://imgur.com/XxWBzcV", "https://imgur.com/Nm3Pd05",
@@ -43,7 +43,12 @@ var alblewd = ["https://imgur.com/tK33HpW", "https://imgur.com/LBMwjPp", "https:
 "https://imgur.com/SFqUN4m", "https://imgur.com/DG6hjBf", "https://imgur.com/ED8L1rP", "https://imgur.com/YzNlEEo", "https://imgur.com/fn0ppcA", "https://imgur.com/ghZ7qmA",
 "https://imgur.com/GcxDwEW", "https://imgur.com/2nFhjCh", "https://imgur.com/4l05ktw", "https://imgur.com/E3cJhNE", "https://imgur.com/VIwj6MO", "https://imgur.com/twZkedD",
 "https://imgur.com/bQktB6C", "https://imgur.com/jttflCB", "https://imgur.com/IlR67C7", "https://imgur.com/38wRYl1", "https://imgur.com/zdUk90Z", "https://imgur.com/adqFQ18",
-"https://imgur.com/bmOIWIz", "https://imgur.com/FVYbytF", "https://imgur.com/VQtChSr", "https://imgur.com/M5H7CjY", "https://imgur.com/mrdaezi" ];
+"https://imgur.com/bmOIWIz", "https://imgur.com/FVYbytF", "https://imgur.com/VQtChSr", "https://imgur.com/M5H7CjY", "https://imgur.com/mrdaezi", "https://imgur.com/GlJ0pkj",
+"https://imgur.com/brM4hb2", "https://imgur.com/I4EaFfq", "https://imgur.com/Pdh2uj1", "https://imgur.com/ZQGmhQd", "https://imgur.com/mYeh1CM", "https://imgur.com/ahLgTuk",
+"https://imgur.com/Bu8wncb", "https://imgur.com/gsfLwrB", "https://imgur.com/F6mdvHv", "https://imgur.com/9phxMwl", "https://imgur.com/SdKyZY1", "https://imgur.com/Tmn7uO5",
+"https://imgur.com/dDp76ZZ", "https://imgur.com/97GxnlO", "https://imgur.com/KWbFvc1", "https://imgur.com/KgRBBEv", "https://imgur.com/9wLKOQJ", "https://imgur.com/LbkXJVF",
+"https://imgur.com/Pjn9EMg", "https://imgur.com/pnFShje", "https://imgur.com/KLMnVe7", "https://imgur.com/FLlYCCW", "https://imgur.com/syCo6QI", "https://imgur.com/4hvRuNJ",
+"https://imgur.com/N5Xs6s9", "https://imgur.com/SPAowkM", "https://imgur.com/HJzlMQQ", "https://imgur.com/Ub7XR4n", "https://imgur.com/OJTf43a", "https://imgur.com/4O3ilzn" ];
 
 client.on ("ready", () => {
     console.log ("ready!");
@@ -90,7 +95,7 @@ client.on ("message", (message) => {
     //}
 
     if (message.content.startsWith (prefix + "lewd")) {
-        number = 59;
+        number = 90;
         link = alblewd[Math.floor (Math.random() * (number - 1 + 1)) ];      
         message.channel.send (link);
     }
