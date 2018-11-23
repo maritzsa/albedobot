@@ -90,7 +90,11 @@ client.on ("message", (message) => {
         embed.setFooter ("Hope I served you well")
 
 
-        message.channel.send ({embed});
+        message.author.send ({embed});
+        
+        message.channel.reply({embed: {
+            color: 0x8415BC,
+            description: '**Check Your DMs!**' 
     
     }      
 
