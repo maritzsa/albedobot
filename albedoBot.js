@@ -91,10 +91,11 @@ client.on ("message", (message) => {
 
 
         message.author.send ({embed});
-        
-        message.channel.reply({embed: {
+        message.channel.send ({embed: {
             color: 0x8415BC,
-            description: '**Check Your DMs!**' 
+            description: '**CHECK YOUR DMs!**' + message.author
+            
+        }});
     
     }      
 
