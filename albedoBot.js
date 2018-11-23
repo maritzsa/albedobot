@@ -1,8 +1,6 @@
 const discord = require ('discord.js');
 
 var client = new discord.Client();
-var fs = require("fs");
-var commandsList = fs.readFileSync ("./COMMANDS.txt", {"encoding": "utf-8"});
 
 var albpics = ["https://imgur.com/n5FCixA", "https://imgur.com/bpscZJ3", "https://imgur.com/9xfxYe8", "https://imgur.com/awJzp63", "https://imgur.com/rCCOigd", 
 "https://imgur.com/ImAuYEN", "https://imgur.com/UDTUEMl", "https://imgur.com/PFlAPbD", "https://imgur.com/I8yzLC1", "https://imgur.com/NXprUoa", "https://imgur.com/M9eXEK0", "https://imgur.com/hPBvwE1",
@@ -75,24 +73,32 @@ client.on ("message", (message) => {
         message.channel.send (link);
     }
 
-        
     if (message.content.startsWith (prefix + "help")) {
-        message.channel.send (commandsList)
-    }
+
+        const embed = new discord.RichEmbed()
+            .setColor(0x8415BC)
+        
+
+        embed.setTitle ('**MY COMMANDS:**')
+        embed.addField ('**a!help**', 'A list of my commands')
+        embed.addField ('**a!creator**', 'Name of my creator and link to the support server')
+        embed.addField ('**a!hello**', 'Hello!')
+        embed.addField ('**a!albedo**', 'Random picked images of me from 130+ images :innocent:')
+        embed.addField ('**a!gif**', 'Cute, random gifs of me :heart:' )
+        embed.addField ('**a!lewd**', 'Random picked NSFW images of me :underage: :flushed:' )
+
+        embed.setFooter ("Hope I served you well")
+
+
+        message.channel.send ({embed});
+    
+    }      
 
     if (message.content.includes ("Love") || (message.content.includes ("love"))) {
         message.channel.send ('**Love! Love! LOVE! . . .**') + message.channel.send ("https://imgur.com/bPomYoz");
     }
 
-    //if (message.content.includes ("love")) {
-      //  message.channel.send ('**Love! Love! LOVE! . . .**');
-    //}
-
-    //if (message.content.startsWith (prefix + "albedo")) {
-        //number = 97;
-        //imageNumber = Math.floor (Math.random() * (number - 1 + 1)) + 1;
-        //message.channel.send ( {files: ["./albedopics/" + imageNumber + ".jpg"]} ); 
-    //}
+  
 
     if (message.content.startsWith (prefix + "lewd")) {
         number = 90;
